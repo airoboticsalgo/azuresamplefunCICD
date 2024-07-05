@@ -23,6 +23,6 @@ def balafuncicd1(req: func.HttpRequest) -> func.HttpResponse:
         logging.error("corent22.....errpr.")
         return func.HttpResponse(
          
-             "This HTTP123 triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
+             "Good day executed successfully. Pass a name in the query string or in the request body for a personalized response.",
              status_code=200
         )

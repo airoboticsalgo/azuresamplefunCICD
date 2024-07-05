@@ -6,7 +6,17 @@
         "isEnabled": true,
         "excludedTypes": "Request"
       }
+    },
+   "logging": {
+    "fileLoggingMode": "debugOnly",
+    "logLevel": {
+      "default": "Information",
+      "Host": "Error",
+      "Function": "Error",
+      "Host.Aggregator": "Information"
     }
+  }
+
   },
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
